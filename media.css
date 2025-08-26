@@ -416,6 +416,8 @@
 
   .behind-container {
     height: 60rem !important;
+    position: absolute;
+    z-index: 0 !important;
   }
 
   .big-hexagon-1 {
@@ -447,7 +449,9 @@
   }
 
   .card-section {
-    margin-top: -10vh !important;
+    position: relative;
+    z-index: 1 !important;
+    margin-top: -20vh !important;
     padding: 1rem 0 !important;
   }
 
